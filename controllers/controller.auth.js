@@ -55,7 +55,7 @@ export const login = async ( req , res , next) =>{
             httpOnly: true,
           }).status(200).json({...otherDetails});
 
-          
+         
 
     }catch(err){
         next(err)

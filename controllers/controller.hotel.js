@@ -15,6 +15,7 @@ export const createHotel = async ( req , res , next) =>{
        next(err)
     }
 }
+
 export const updateHotel = async ( req , res , next) =>{
     try{
 
